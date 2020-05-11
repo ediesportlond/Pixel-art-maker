@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>PIXELS</title>
+    <script src='Pixel.js'></script>
+    <link rel='stylesheet' href='style.css'>
+    <meta charset='UTF-8'>
+</head>
+<body>
+    <img class='center-img' src='title.png' alt='Pixel Art Maker'>
+    <div class='center-align'>
+        <form>
+            <label>Grid Height:</label>
+            <input type='text' id='gridHeight' name='gridHeight' min='1' max='20'>
+            <label>Grid Width:</label>
+            <input type='text' id = 'gridWidth' name = 'gridwidth' min = '1' max='45'>
+            <input type='submit' id='submit' value='Submit'>
+        </form> 
+        <div id='center-par'>
+            <strong>Pick a color  </strong>
+            <input type='color' id='colorPick' value='#00b5e9'><br><br>
+            <strong>Design Canvas</strong>
+        </div>
+    </div>
+    <div style='text-align: center;'>
+        <table id='boxContainer'></table>
+    </div>
+    <script src='Pixel.js'></script>
+</body></html>

@@ -1,0 +1,28 @@
+body{
+    font-family: serif, san-serif, monospace;
+    }
+.center-align {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+.center-img {
+    display: block;
+    width: 100%;
+}
+#center-par {
+    margin-top: 20px;
+}
+#boxContainer { 
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+.box {
+    border: 1px solid #000000;
+    height: 30px;
+    width: 30px;
+}
+
